@@ -19,7 +19,7 @@ public class MockedData {
         try {
             object.put("id", "2");
             object.put("name", "Me");
-            object.put("profilePicture", "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png");
+            object.put("profilePicture", "url_here");
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -41,7 +41,7 @@ public class MockedData {
         try {
             object.put("id", id);
             object.put("name", "Someone else " + id);
-            object.put("profilePictures", "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png");
+            object.put("profilePictures", "url_here");
         } catch (JSONException e) {
             e.printStackTrace();
         }

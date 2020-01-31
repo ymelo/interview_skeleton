@@ -16,7 +16,7 @@ public class WebviewActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview);
         WebView view = findViewById(R.id.webview);
-        view.loadUrl("https://www.intellimec.com/about-ims");
+        view.loadUrl("http://www.mocky.io/v2/5e334c2232000069df94d504");
         Button btn = findViewById(R.id.webview_btn_ok);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
